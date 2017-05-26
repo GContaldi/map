@@ -1,0 +1,17 @@
+{
+  "name": "my_map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register index_spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.4.2"
+  }
+}
